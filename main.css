@@ -4239,13 +4239,6 @@ code {
     background: var(--background-mod-subtle)
 }
 
-._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper:hover ._2ea32c412048f708-icon,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeMuted:hover ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeMuted:hover ._2ea32c412048f708-icon {
-    color: var(--hsl-channel-hover)
-}
-
 ._2ea32c412048f708-wrapper._2ea32c412048f708-modeUnreadImportant ._2ea32c412048f708-name {
     color: var(--hsl-channel-unread);
     text-shadow: 0 0 3px
@@ -4268,11 +4261,6 @@ code {
     right: 0;
     background: var(--hsl-channel-selected-bg);
     animation: cv-channel-select .3s ease-in-out
-}
-
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-name,
-._2ea32c412048f708-wrapper._2ea32c412048f708-modeSelected ._2ea32c412048f708-icon {
-    color: var(--hsl-channel-selected)
 }
 
 ._2ea32c412048f708-wrapper._2ea32c412048f708-modeConnected ._2ea32c412048f708-name {
